@@ -1,5 +1,3 @@
-import { isRegExp } from "util";
-
 export default class Boxes {
     constructor(elem) {
         this.elem = document.querySelectorAll(elem);
