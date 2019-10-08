@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+    
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 980px;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    max-width: 140px;
+    background-color: #222;
+    color: #eee;
+    border: 1px solid #222;
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 250ms ease;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus {
+    background-color: #eee;
+    border: 1px solid #222;
+    color: #222;
+}
+
+@import './Components/Boxes';
+
