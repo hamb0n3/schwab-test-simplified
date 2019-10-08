@@ -28,8 +28,9 @@
             background-color: #fff;
         }
 
-        
-        .box-inner {
+        &::after {
+            content: '';
+            display: block;
             width: 100%;
             padding-top: 100%;
         }
@@ -40,8 +41,6 @@
             left: 50%;
             transform: translateX(-50%);
         }
-        
-        
     }
 
     @media screen and (min-width: 680px) {

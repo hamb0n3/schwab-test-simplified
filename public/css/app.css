@@ -74,7 +74,9 @@ input[type=submit]:focus {
 .boxes .box.box-white {
   background-color: #fff;
 }
-.boxes .box .box-inner {
+.boxes .box::after {
+  content: "";
+  display: block;
   width: 100%;
   padding-top: 100%;
 }
