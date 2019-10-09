@@ -86,10 +86,10 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/js/Components/Boxes.js":
-/*!************************************!*\
-  !*** ./src/js/Components/Boxes.js ***!
-  \************************************/
+/***/ "./src/js/index.js":
+/*!*************************!*\
+  !*** ./src/js/index.js ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -161,22 +161,8 @@ function () {
 
 
 
-/***/ }),
-
-/***/ "./src/js/index.js":
-/*!*************************!*\
-  !*** ./src/js/index.js ***!
-  \*************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Components_Boxes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Components/Boxes */ "./src/js/Components/Boxes.js");
-
-
 window.onload = function () {
-  var BOXES = new _Components_Boxes__WEBPACK_IMPORTED_MODULE_0__["default"]('.box');
+  var BOXES = new Boxes('.box');
   BOXES.init();
 };
 

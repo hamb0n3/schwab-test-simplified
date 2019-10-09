@@ -48,6 +48,9 @@ input[type=submit]:focus {
   color: #222;
 }
 
+/************************/
+/******** BOXES *********/
+/************************/
 .boxes {
   display: flex;
   flex-wrap: wrap;
