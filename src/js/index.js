@@ -1,4 +1,4 @@
-export default class Boxes {
+class Boxes {
     constructor(elem) {
         this.elem = document.querySelectorAll(elem);
     }
